@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <nav>
+        <a href="colors.html">Colors</a><a href="typo.html">Typography</a><a href="icon.html">Iconography</a><a href="textfields.html">Textfields</a><a  class="activeurl"
+            href="selectors.html">Selectors</a><a href="buttons.html">Buttons</a><a href="smallelements.html">Small Elements</a><a href="Bigelement.html">Big Elements</a><a
+            href="cards.html">Cards</a><a href="images.html">Images</a>
+    </nav>
+
+    <div class="title">
+        <p class="header"><span>05.</span> <strong>Selectors</strong></p>
+    </div>
+
+    <div class="drop">
+
+        <div class="subtitles"><span>Dropdown</span></div>
+
+        <div class="dropdown">
+            <span style="float:left">Dropdown</span><span style="float:right"><img src="./assets/down-arrow.png" alt=""
+                    srcset="" style="width: 25px;height: 25px;"></span>
+            <div class="option">
+                <div>Option 1</div>
+                <div>Option 2</div>
+                <div>Option 3</div>
+            </div>
+        </div>
+
+        <div class="dropdown1">
+            <span style="float:left">Dropdown</span><span style="float:right"><img src="./assets/down-arrow.png" alt=""
+                    srcset="" style="width: 25px;height: 25px;"></span>
+        </div>
+        <div class="option1">
+            <div>Option 1</div>
+            <div style=" background-color: #223354;
+               color:white;">Option 2</div>
+            <div>Option 3</div>
+        </div>
+    </div>
+    <div class="option-dept">
+        <div class="checkbox-container">
+            <div class="subtitles"><span>Checkbox</span></div>
+            <div class="checkbox"><input type="checkbox" class="checking" name="checked" id="" checked><label
+                    for="checked">Checkbox</label></div>
+            <div class="checkbox"><input type="checkbox" name="default" id=""><label for="default">Checkbox</label>
+            </div>
+            <div class="checkbox"><input type="checkbox"  id="disch" name="disabled" disabled><label
+                    for="disabled">Checkbox</label></div>
+        </div>
+        <div class="checkbox-container">
+            <div class="subtitles"><span>Radio Button</span></div>
+            <div class="checkbox"><input type="radio" name="checked-radio" id="" checked><label for="checked">Radio
+                    Button</label></div>
+            <div class="checkbox"><input type="radio" name="default-radio" id=""><label for="checked">Radio
+                    Button</label></div>
+            <div class="checkbox"><input type="radio" id="disra"  name="disabled-radio" disabled><label for="checked">Radio
+                    Button</label></div>
+        </div>
+        <div class="checkbox-container">
+            <div class="subtitles"><span>Toggle</span></div>
+            <div class="checkbox">
+                <label class="switch">
+                    <input type="checkbox" id="checked" checked onclick="toggle()">
+                    <span class="slider round"></span>
+                </label><label for="checked" id="result">Toggle ON</label>
+            </div>
+            <div class="checkbox">
+                <div class="back-toggle">
+                    <div class="element"></div>
+                </div><label for="checked">Toggle ON</label>
+            </div>
+            <div class="checkbox" style="
+            margin-top: 30px;
+        ">
+                <div class="back-toggle1">
+                    <div class="element1"></div>
+                </div><label for="checked">Toggle OFF</label>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="selectors">
+        <div class="subtitles"><span>Large Selectors</span></div>
+        <div class="additions">No Additions</div>
+        <div class="noadditions">No Additions</div>
+    </div>
+    <div class="daypicker">
+        <div class="subtitles"><span>Date Picker</span></div>
+        <div class="picker">
+            <span class="month">Augest 2020</span><span class="arrow">&#60;&nbsp;&nbsp;&gt;</span>
+            <table>
+                <th>S</th>
+                <th>M</th>
+                <th>T</th>
+                <th>W</th>
+                <th>T</th>
+                <th>F</th>
+                <th>S</th>
+                <tr>
+                    <td class="day">1</td>
+                    <td class="day">2</td>
+                    <td class="day">3</td>
+                    <td class="day">4</td>
+                    <td class="day">5</td>
+                    <td class="day">6</td>
+                    <td class="day">7</td>
+                </tr>
+                <tr>
+                    <td class="day">8</td>
+                    <td class="spicific">9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td>31</td>
+                    
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div style="clear:flaot"></div>
+    <div class="inline">
+        <div class="pagination">
+            <div class="subtitles"><span>Pagination</span></div>
+            <div class="pages">
+                <div class="page1"  id="page_1" onclick="switchpage1()">1</div>
+                <div class="page" id="page_2" onclick="switchpage2()">2</div>
+                <div class="page" id="page_3" onclick="switchpage3()">3</div>
+            </div>
+        </div>
+        <div class="pagination">
+            <div class="subtitles"><span>Breadcrumbs</span></div>
+            <div class="pages">
+                <span><svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24.6138 18.3V12.434C24.6138 11.1786 24.6138 10.5509 24.4404 9.98145C24.287 9.47728 24.0354 9.00841 23.7002 8.60178C23.3215 8.14245 22.7985 7.7954 21.7525 7.10128L17.6036 4.3482C16.3244 3.4993 15.6847 3.07485 14.9938 2.9099C14.3831 2.76412 13.7468 2.76412 13.1361 2.9099C12.4452 3.07485 11.8055 3.4993 10.5263 4.3482L6.37743 7.10128L6.37743 7.10129C5.33142 7.7954 4.80842 8.14245 4.42974 8.60178C4.0945 9.00841 3.84293 9.47728 3.68946 9.98145C3.51611 10.5509 3.51611 11.1786 3.51611 12.434V18.3C3.51611 19.4201 3.51611 19.9802 3.7341 20.408C3.92585 20.7843 4.23181 21.0903 4.60813 21.282C5.03596 21.5 5.59601 21.5 6.71611 21.5H7.83762C7.95369 21.5 8.01172 21.5 8.06076 21.4976C9.08817 21.4471 9.90974 20.6255 9.96022 19.5981C9.96262 19.5491 9.96262 19.4911 9.96262 19.375V17.1023C9.96262 14.8367 11.7993 13 14.0649 13C16.3306 13 18.1673 14.8367 18.1673 17.1023V19.375C18.1673 19.4911 18.1673 19.5491 18.1697 19.5981C18.2202 20.6255 19.0417 21.4471 20.0691 21.4976C20.1182 21.5 20.1762 21.5 20.2923 21.5H21.4138C22.5339 21.5 23.0939 21.5 23.5218 21.282C23.8981 21.0903 24.2041 20.7843 24.3958 20.408C24.6138 19.9802 24.6138 19.4201 24.6138 18.3Z"
+                            stroke="#828282" stroke-width="1.8" />
+                    </svg></span>
+
+
+                <span>Home</span><span>&#62;</span><span>Detail</span><span>&#62;</span><span
+                    style="color: #223354">Pricing</span>
+            </div>
+        </div>
+        <div class="pagination">
+            <div class="subtitles"><span>Tabs</span></div>
+            <div class="tabs">
+                <div class="tab1" id="cur1" onclick="switchtab1()">Section 1</div>
+                <div class="tab2" id="cur2" onclick="switchtab2()">Section 2</div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
