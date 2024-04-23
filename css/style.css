@@ -624,9 +624,10 @@ input[type="radio"] {
 .daypicker>.picker {
     float: left;
     width: 300px;padding:10px;
-  border: 1px solid #bdbdbd;
+  border: 1px solid transparent;
     position: absolute;
     z-index: 1;
+    
 
 }
 .picker ul{
