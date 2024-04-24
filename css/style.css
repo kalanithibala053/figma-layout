@@ -658,6 +658,9 @@ input[type="radio"] {
     background-color: #223354;
     color:white;
 }
+.dates> li.inactive{
+    color:#c2c2c2;
+}
 .act{
     background-color: #223354;
     color:white;
@@ -666,6 +669,7 @@ input[type="radio"] {
     color:white;
     }
 }
+
 .picker ul li{
     width:calc(100%/7);
     text-align: center;
