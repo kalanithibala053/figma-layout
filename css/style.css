@@ -653,6 +653,10 @@ input[type="radio"] {
 .dates li:hover{
     background:#E0E0E0;
 }
+.dates li.act:hover{
+    background-color: #223354;
+    color:white;
+}
 .act{
     background-color: #223354;
     color:white;
